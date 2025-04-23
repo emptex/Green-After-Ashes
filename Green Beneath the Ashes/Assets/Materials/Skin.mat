@@ -238,7 +238,7 @@ Material:
     - _MCIALO: 0
     - _MCapIntensity: 1
     - _MVCOL: 0
-    - _MaiColPo: 0.8
+    - _MaiColPo: 1
     - _MaxFadDistance: 2
     - _Metallic: 0
     - _MinFadDistance: 0
@@ -370,8 +370,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlossColor: {r: 1, g: 1, b: 1, a: 1}
     - _Glow_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 0.9150943, g: 0.52481234, b: 0.46186364, a: 1}
+    - _HighlightColor: {r: 1, g: 0.8632076, b: 0.8632076, a: 1}
+    - _MainColor: {r: 0.9528302, g: 0.48466152, b: 0.40899786, a: 1}
     - _ObjPosi: {r: 0, g: 0, b: 0, a: 0}
     - _ObjectForward: {r: 0, g: 0, b: 0, a: 0}
     - _ObjectRight: {r: 0, g: 0, b: 0, a: 0}
