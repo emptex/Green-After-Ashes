@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{FB7C1B03-E435-F840-23D3-88FC80D27154}|">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1cdd1ba0-5c33-4910-a041-4614168d69e7" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ink 1/InkControl.cs">
+    <Files>
+      <File FileName="Assets/Ink 1/InkControl.cs" Line="38" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
