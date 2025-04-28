@@ -1,31 +1,30 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CollisionLoadScene : MonoBehaviour
+public class TriggerSceneLoader : MonoBehaviour
 {
-    [Header("Scene Settings")]
-    [Tooltip("要切换到的场景名字")]
+    [Tooltip("要加载的场景名称，确保已添加到 Build Settings")]
     public string sceneName;
 
-    [Tooltip("碰撞后等待的时间")]
-    public float delaySeconds = 2f;
+    [Tooltip("玩家对象的 Tag")]
+    public string playerTag = "Player";
 
-    private bool hasCollided = false;
+    private bool hasLoaded = false;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (!hasCollided)
-        {
-            hasCollided = true;
-            Invoke(nameof(LoadScene), delaySeconds);
-        }
-    }
+        Debug.Log($"[TriggerSceneLoader] OnTriggerEnter with {other.name}");
+        if (hasLoaded) return;
 
-    private void LoadScene()
-    {
-        if (!string.IsNullOrEmpty(sceneName))
+        if (other.CompareTag(playerTag))
         {
+            hasLoaded = true;
+            Debug.Log($"[TriggerSceneLoader] 玩家进入 Trigger，加载场景：{sceneName}");
             SceneManager.LoadScene(sceneName);
+        }
+        else
+        {
+            Debug.Log($"[TriggerSceneLoader] Tag 不匹配：{other.tag}");
         }
     }
 }
