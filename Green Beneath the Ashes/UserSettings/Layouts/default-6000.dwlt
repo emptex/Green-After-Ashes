@@ -38,8 +38,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1389
-    y: 200
+    x: 0
+    y: 108
     width: 1389
     height: 917
   m_ShowMode: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -451,8 +451,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Build Profiles\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 728
-    y: 364
+    x: 0
+    y: 26
     width: 725
     height: 552
   m_SerializedDataModeController:
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 750.5
+    y: 672.5
     width: 1319
     height: 228.5
   m_SerializedDataModeController:
@@ -661,7 +661,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 307.99942}
     m_SelectedIDs: b8bd0000
     m_LastClickedID: 48568
-    m_ExpandedIDs: 000000005cb900005eb9000060b9000062b9000064b9000066b9000068b900006ab900006cb9000076bd00009ebd0000b2bd0000583d0100643d01006c3d01003044010000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000c2b20000c4b20000c6b20000c8b20000cab20000ccb20000ceb20000d0b20000d2b20000d4b20000d6b20000d8b20000dab20000dcb20000deb20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -690,7 +690,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005cb900005eb9000060b9000062b9000064b9000066b9000068b900006ab900006cb900009ebd0000b2bd0000583d0100643d01006c3d01003044010000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000c2b20000c4b20000c6b20000c8b20000cab20000ccb20000ceb20000d0b20000d2b20000d4b20000d6b20000d8b20000dab20000dcb20000deb20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -769,8 +769,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1320
-    y: 102
+    x: 1321
+    y: 24
     width: 407
     height: 877
   m_SerializedDataModeController:
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 102
+    y: 24
     width: 221.5
     height: 622.5
   m_SerializedDataModeController:
@@ -836,23 +836,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b0340b00
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 3a33f3ff8eb8f3ff68b9f3ff12f2f3ff2258f4ff4065f4ff12a2f5ffa2b7f6ffd630f7ff86aef7ff7a74f9ff3a5ffcff925ffcff1a77fcff4a77fcffaa78fcff127afcff3c7cfcff4e7cfcff6e7cfcffc87cfcff42fbffff32430100f268070012690700aed2080064f00800e6f00800
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: '[E]Talk'
-        m_OriginalName: '[E]Talk'
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 579950
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 10}
@@ -884,8 +884,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 222.5
-    y: 102
+    x: 223.5
+    y: 24
     width: 1095.5
     height: 622.5
   m_SerializedDataModeController:
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.029246228, y: 0.97074616, z: -0.1646418, w: -0.17257467}
     speed: 2
-    m_Value: {x: -0.028256552, y: 0.9717193, z: -0.16480671, w: -0.16673943}
+    m_Value: {x: -0.029244877, y: 0.9707014, z: -0.1646342, w: -0.17256671}
   m_Size:
     m_Target: 32.15293
     speed: 2
@@ -1551,8 +1551,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -1389
-    y: 200
+    x: 0
+    y: 26
     width: 1389
     height: 891
   m_SerializedDataModeController:

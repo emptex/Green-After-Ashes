@@ -12,6 +12,12 @@ public class InteractionTrigger : MonoBehaviour
     [Tooltip("按下交互键时激活的物体列表")]
     public GameObject[] objectsToActivate;
 
+    [Tooltip("按下交互键时关闭的物体列表")]
+    public GameObject[] objectsToDeactivate;
+
+    [Tooltip("必须激活状态的指定检测器（为空则不检测）")]
+    public GameObject requiredDetector;
+
     private bool isPlayerInRange = false;
     private bool hasInteracted = false;
 
@@ -25,7 +31,13 @@ public class InteractionTrigger : MonoBehaviour
     {
         if (!hasInteracted && isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            // 如果设置了检测器且当前未激活，则不执行交互
+            if (requiredDetector != null && !requiredDetector.activeInHierarchy)
+                return;
+
             ActivateObjects();
+            DeactivateObjects();
+
             if (hintObject != null)
                 hintObject.SetActive(false);
 
@@ -65,6 +77,15 @@ public class InteractionTrigger : MonoBehaviour
         {
             if (obj != null)
                 obj.SetActive(true);
+        }
+    }
+
+    private void DeactivateObjects()
+    {
+        foreach (GameObject obj in objectsToDeactivate)
+        {
+            if (obj != null)
+                obj.SetActive(false);
         }
     }
 }

@@ -236,7 +236,7 @@ Material:
     - _LightAffectOutlineColor: 0
     - _LightAffectRimLightColor: 0
     - _LightAffectShadow: 0
-    - _LightContribution: 0.61
+    - _LightContribution: 1
     - _LightFalloffAffectShadowT: 0
     - _LightFalloffSoftness: 1
     - _LightIntensity: 1
@@ -410,7 +410,7 @@ Material:
     - _SSAOColor: {r: 0, g: 0, b: 0, a: 0}
     - _SelfLitColor: {r: 1, g: 1, b: 1, a: 1}
     - _SelfShadowRealTimeShadowColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.6132076, g: 0.3398182, b: 0.12437701, a: 1}
+    - _ShadowColor: {r: 0.254717, g: 0.15242517, b: 0.07088822, a: 1}
     - _ShadowTColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _XYZPosition: {r: 0, g: 0, b: 0, a: 0}

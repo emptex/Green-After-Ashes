@@ -12,7 +12,7 @@
       <File FileName="Assets/Scripts/CollideTrigger.cs" Line="41" Column="54" />
       <File FileName="Assets/Scripts/TransparencyOut.cs" Line="23" Column="10" />
       <File FileName="Assets/Scripts/ColliderScChange.cs" Line="30" Column="2" />
-      <File FileName="Assets/Scripts/Talk.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Talk.cs" Line="36" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>
