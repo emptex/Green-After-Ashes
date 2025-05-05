@@ -22,12 +22,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Metal
   m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
-  m_Parent: {fileID: 2100000, guid: 7aca1aef0725448aeacf14325239c0da, type: 2}
+  m_Parent: {fileID: 2100000, guid: f91b22034329f4365935873a967850c2, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - DR_LIGHT_ATTENUATION
   - DR_OUTLINE_ON
   - DR_SPECULAR_ON
+  - DR_VERTEX_COLORS_ON
   - _DETAILMAPBLENDINGMODE_MULTIPLY
   - _EMISSION
   - _TEXTUREBLENDINGMODE_MULTIPLY
